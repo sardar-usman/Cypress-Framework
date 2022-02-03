@@ -1,0 +1,29 @@
+{
+	"env": {
+		"signUpUrl": "https://qa.rev-lock.com/?signUp=true",
+		"loginUrl": "https://qa.rev-lock.com",
+		"fixtureFile": "dataFile.json",
+		"MAILSLURP_API_KEY": "b619e25606c4dc8a86a846abb7197b5ca7bba67ffb055adacbf8ad614f85c178"
+	},
+	"viewportWidth": 1920,
+	"numTestsKeptInMemory": 10,
+	"viewportHeight": 1580,
+	"chromeWebSecurity": false,
+	"defaultCommandTimeout": 50000,
+	"requestTimeout": 50000,
+	"responseTimeout": 50000,
+	"pageLoadTimeout": 50000,
+	"retries": 0,
+	"experimentalSourceRewriting": false,
+	"video": false,
+	"reporter": "../node_modules/mochawesome/src/mochawesome.js",
+	"reporterOptions": {
+		"reportTitle": "RevLock Automation Suite Report",
+		"charts": true,
+		"overwrite": false,
+		"html": false,
+		"json": true,
+		"reportDir": "mochawesome-report/jsonFiles"
+	},
+	"screenshotsFolder": "TestReport/assets"
+}

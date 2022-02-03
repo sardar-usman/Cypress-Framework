@@ -1,0 +1,50 @@
+{
+	"superAdmin": [
+		{
+			"username": "muhammad.usman@chargebee.com",
+			"password": "Test@12345"
+		},
+		{
+			"username": "mizhar@rev-lock.com",
+			"password": "Funrun21@"
+		}
+	],
+
+	"signUpUser": {
+		"welcomeText1": "If you are new to Chargebee RevRec, click to go through the navigation. You can get back to setup by clicking the complete setup button on the top",
+		"welcomeText2": "Setup Chargebee RevRec",
+		"dataText1": "Chargebee RevRec captures your sales and billings data in order to produce revenue recognition results",
+		"dataText2": "Data Made Easy"
+	},
+
+	"products": [
+		{
+			"id": "1",
+			"name": "Automation product 1",
+			"code": "001",
+			"price": "1,000",
+			"currency": "US Dollar",
+			"startDate": "Order Date",
+			"startOffset": "5",
+			"unit": "/months",
+			"term": "10",
+			"endDate": "Order Date"
+		}
+	],
+
+	"updateProducts": [
+		{
+			"id": "2",
+			"name": "Automation product 1",
+			"updatedName": "Update automation product 1",
+			"code": "001",
+			"price": "2,000",
+			"currency": "US Dollar",
+			"startDate": "Order Date",
+			"startOffset": "10",
+			"unit": "/months",
+			"term": "20",
+			"endDate": "Order Date"
+		}
+	]
+}
